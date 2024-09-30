@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/light_yellow"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="259dp"
+        android:layout_height="151dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/light_yellow"
+        app:srcCompat="@drawable/refri2" />
+
+    <ImageButton
+        android:id="@+id/imageButtonL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/light_yellow"
+        app:srcCompat="@drawable/leftarrow" />
+
+    <ImageButton
+        android:id="@+id/imageButtonR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="120dp"
+        android:rotation="180"
+        android:background="@color/light_yellow"
+        app:srcCompat="@drawable/leftarrow" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/background"
+        android:ems="9"
+        android:fontFamily="@font/carter_one"
+        android:text="Bebidas"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/background"
+        android:ems="6"
+        android:fontFamily="@font/carter_one"
+        android:text="Refrigerantes"
+        android:textAlignment="center"
+        android:textColor="@color/winter"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/background"
+        android:ems="5"
+        android:fontFamily="@font/carter_one"
+        android:text="Alcoólicas"
+        android:textAlignment="center"
+        android:textColor="@color/winter"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textL1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="360dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Fruki (latinha)............................ 4 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="400dp"
+        android:ems="15"
+        android:fontFamily="@font/carter_one"
+        android:text="Fanta (latinha).............,,........... 4 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="420dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Coca (latinha).......................,,... 4 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="440dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Fruki 2L........................................ 9 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="460dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Pepsi 2L........................................ 9 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="480dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Fanta 2L....................................... 9 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="500dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Coca 2L......................................... 9 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="520dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Fruki 3L....................................... 13 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="380dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Pepsi (latinha)........................... 4 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="540dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Pepsi 3L....................................... 13 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="560dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Fanta 3L...................................... 13 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="580dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Coca 3L........................................ 13 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textS1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="460dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Caipirinha de Limão........ 16 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textS2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="480dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Vodka (Shot)..................... 4 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textS3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="500dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Conhaque (Shot).............. 3 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textS4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="520dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Vinho Tinto Suave......... 20 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textS5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="540dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Vinho Tinto Seco............. 16 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textS6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="560dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Coquetel com Vodka........ 7 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textS7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="580dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Cerveja Bahma (Lata)..... 4 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textS8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="600dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Cerveja Skol (Lata)........... 4 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTrocaH"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="680dp"
+        android:background="@drawable/background"
+        android:ems="4"
+        android:fontFamily="@font/carter_one"
+        android:text="Hambúrgueres"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
+
+
+

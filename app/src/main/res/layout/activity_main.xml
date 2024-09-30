@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/light_yellow"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="259dp"
+        android:layout_height="151dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/light_yellow"
+        app:srcCompat="@drawable/hamburguer" />
+
+    <ImageButton
+        android:id="@+id/imageButtonL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/light_yellow"
+        app:srcCompat="@drawable/leftarrow" />
+
+    <ImageButton
+        android:id="@+id/imageButtonR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="120dp"
+        android:rotation="180"
+        android:background="@color/light_yellow"
+        app:srcCompat="@drawable/leftarrow" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/background"
+        android:ems="9"
+        android:fontFamily="@font/carter_one"
+        android:text="Menu"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/background"
+        android:ems="6"
+        android:fontFamily="@font/carter_one"
+        android:text="Hambúrgueres"
+        android:textAlignment="center"
+        android:textColor="@color/winter"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/background"
+        android:ems="5"
+        android:fontFamily="@font/carter_one"
+        android:text="Sanduíches"
+        android:textAlignment="center"
+        android:textColor="@color/winter"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textL1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="360dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Bacon........................................ 20 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="400dp"
+        android:ems="15"
+        android:fontFamily="@font/carter_one"
+        android:text="Duplo Carne............................ 40 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="420dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Veganos.................................... 30 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="440dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Vegetariano............................. 20 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="460dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Mexicano.................................... 15 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="480dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Boliviano................................... 43 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="500dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Paulista..................................... 80 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="520dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Americano................................ 50 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="380dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Tradicional............................... 20 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="540dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Á moda da casa....................... 40 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="560dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Clássico...................................... 20 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textL13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="580dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Minimalista............................... 10 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textS1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="460dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Minimalista....................... 10 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textS2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="480dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Presunto e Cheddar......... 15 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textS3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="500dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Apresuntado e Queijo...... 8 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textS4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="520dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Natural............................... 12 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textS5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="540dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Torrada com Queijo e Presunto............................ 16 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textS6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="575dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Frango............................... 10 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+    android:id="@+id/textS7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_marginLeft="230dp"
+    android:layout_marginTop="595dp"
+    android:ems="12"
+    android:fontFamily="@font/carter_one"
+    android:text="Atum.................................. 14 R$"
+    android:textColor="@color/black"
+    android:textSize="10dp"
+    android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textS8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="615dp"
+        android:ems="12"
+        android:fontFamily="@font/carter_one"
+        android:text="Abobrinha e Beringela........................... 18 R$"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTrocaB"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="680dp"
+        android:background="@drawable/background"
+        android:ems="4"
+        android:fontFamily="@font/carter_one"
+        android:text="Bebidas"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>
+
+
+
