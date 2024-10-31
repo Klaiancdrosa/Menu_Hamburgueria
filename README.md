@@ -1,34 +1,64 @@
-# Projeto Menu de Hambúrgueria
--------------------------------------------------
-Objetivo de Demonstrar suas funções de troca entre telas e imagens.
+# **App Menu Hamburgueria**
+&gt; Desenvolvido para demonstrar a utilização de sistema de trocas de telas e imagens.
 
-![P4 1](https://github.com/user-attachments/assets/2082aec3-6168-43c1-9909-ea3bc4f0bf0a)
+## Descrição
+O **App Menu Hamburgueria** permite ao usuário trocar entre imagens selecionada e telas do cardápio.
 
-![P4 2](https://github.com/user-attachments/assets/9c2a6c34-0116-4a9b-ab59-e5967dd67937)
+## Funcionalidades
+- [x] Interface simples e intuitiva
 
-![P4 3](https://github.com/user-attachments/assets/b6323192-b1c4-465a-93e7-1a53dae42407)
+## Tecnologias Utilizadas
+- [x] **Android Studio** (Koala | 2024.1.2)
+- [x] **Java** para desenvolvimento
+- [x] **RelativeLayout** para interface responsiva
+- [x] **TextView** e **Image Button** para exibição de dados
+      
+## Como Rodar o Projeto
+Siga os passos abaixo para rodar o projeto localmente:
 
-![P4 4](https://github.com/user-attachments/assets/97122d11-a4be-4eca-804b-0ed5ac6df326)
+1. Clone este repositório:
+```bash
+git clone https://github.com/Klaiancdrosa/Menu_Hamburgueria.git
+```
+2. Abra o projeto no Android Studio.
+3. Compile e execute o projeto em um emulador ou dispositivo físico.
+   
+## Estrutura do Projeto
+```bash
+├── app
+│ ├── src
+│ │ ├── main
+│ │ │ ├── java
+| | | | |── br.ulbra.menuhamburgueria
+│ │ │ │ | ├── MainActivity.java # Atividade aonde ocorre as trocas de imagens e telas da tela principal.
+│ │ │ │ | ├── MenuHActivity2.java # Atividade aonde ocorre as trocas de imagens e telas da tela secundária. 
+| │ │ │ ├── res
+| | | | ├── drawable # imagens e icones utilizados na tela principal
+│ │ │ │ ├── layout
+│ │ │ │ | ├── activity_main.xml # Layout da primeira tela do cardápio  
+│ │ │ │ │ ├── activity_main2.xml # Layout da segunda tela do cardápio  
+│ │ │ │ └── values
+│ │ │ │ ├── strings.xml # Strings usadas no app
+│ │ │ │ ├── colors.xml # Cores definidas no projeto
+│ └── build.gradle # Configuração do Gradle
+└── README.md # Este arquivo
+```
 
----------------------------------------------------
-## O Que foi utilizado:
+## Design e Prototipage
+A interface do app foi criada usando **RelativeLayout**;
+O design é minimalista e fácil de usar, com foco na simplicidade e entendimento.
 
-Backend: Java
+## Telas do App Menu Hamburgueria
+**Telas do Cardápio**
+Tela que permite ao usuário visualizar o cardápio da hamburgueria que permite a mudança entre tela e troca de imagens.
 
----------------------------------------------------
+![image](https://github.com/user-attachments/assets/d24ec3da-c492-40b9-8a84-e30db1ef154e)
 
-## IDE:
+![image](https://github.com/user-attachments/assets/74c3d427-5672-465e-a610-8e510f703b7b)
 
-Android Studio
+## Desenvolvedores
+**Klaian Conceição da Rosa** - Desenvolvedor - [GitHub](https://github.com/Klaiancdrosa)
 
----------------------------------------------------
-## Autor:
-
-https://github.com/Klaiancdrosa
-
----------------------------------------------------
-## Comentário:
-
- Meu quarto projeto feito no Android Studio, esse projeto tem como objetivo demonstrar sua troca entre telas e
- imagens ao apertar dos botões laterais das imagens, tudo ainda parece meio feio, mas por enquanto está funcionando
- :sunglasses:
+## Licenças
+Este projeto está licenciado sob os termos da licença MIT. Para mais detalhes, veja o arquivo
+[LICENSE](LICENSE).
